@@ -26,6 +26,11 @@
         showMenu = !showMenu;
     }
 </script>
+
+<svelte:head>
+    <title>Aerton</title>
+</svelte:head>
+
 <header class="fixed top-0 w-full z-20">
     <nav class="navbar bg-base-200 lg:justify-between">
         <button class="btn btn-square btn-ghost lg:hidden" on:click={toggleMenu}>
