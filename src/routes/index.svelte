@@ -54,7 +54,7 @@
         <h1 class="text-5xl lg:text-9xl">AERTON</h1>
         <div>
             <h3 class="max-w-xs mb-4">Desenvolvimento de sites, aplicativos mobile e desktop, games e aplicações VR.</h3>
-            <button class="btn btn-success" on:click={scrollToServices}>Conheça os serviços </button>
+            <button class="btn btn-primary" on:click={scrollToServices}>Conheça os serviços </button>
         </div>
     </div>
 </section>
